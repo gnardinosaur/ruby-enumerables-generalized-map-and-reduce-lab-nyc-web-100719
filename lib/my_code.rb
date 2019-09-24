@@ -9,7 +9,7 @@ end
 def reduce(source_arr, start_value = 0)
   new_value = start_value
   source_arr.length.times { |index|
-    new_value = yield(source_arr[index])
+    p yield(source_arr[index])
   }
   new_value
 end 
