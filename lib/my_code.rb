@@ -11,9 +11,8 @@ def reduce(source_arr, start_value = 0)
   source_arr.length.times { |index|
     new_value = yield(source_arr[index], new_value)
   }
-  if new_value = Integer
-    return new_value
-  else
+  if !new_value = Integer
     return !!new_value
   end
+  new_value
 end 
