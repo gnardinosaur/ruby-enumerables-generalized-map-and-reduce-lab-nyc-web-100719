@@ -6,6 +6,6 @@ def make_sandwich(element1, element2)
 end
  
 make_sandwich("chicken", "a sense of malaise") do |innards|
-  puts "making some tasty stuff..."
+  #puts "making some tasty stuff..."
 end
 
