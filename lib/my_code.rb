@@ -7,7 +7,7 @@ def map(source_arr)
 end 
 
 def reduce(source_arr, start_value = 0)
-  value = start_value
+  value = 0
   source_arr.length.times { |index|
     value = yield(source_arr[index])
   }
