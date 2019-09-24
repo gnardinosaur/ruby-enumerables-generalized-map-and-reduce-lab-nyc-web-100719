@@ -5,3 +5,13 @@ def map(source_arr)
   }
   new_arr
 end 
+
+def reduce(source_arr, start_value = )
+  value = 
+  source_arr.length.times { |index|
+    value =
+    
+  }
+
+  value
+end 
