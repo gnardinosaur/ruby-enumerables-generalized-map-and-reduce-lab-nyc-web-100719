@@ -12,7 +12,7 @@ def reduce(source_arr, start_value = 0)
     new_value = yield(source_arr[index], new_value)
   }
   if new_value == !Integer
-    return !!new_value
+    p !!new_value
   end
- p new_value
+ new_value
 end 
