@@ -14,5 +14,5 @@ def reduce(source_arr, start_value = 0)
   if new_value == !Integer
     return !!new_value
   end
-  new_value
+ p new_value
 end 
